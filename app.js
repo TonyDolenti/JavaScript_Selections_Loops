@@ -43,7 +43,7 @@ while (i <= 100) {
         output += "BUZZ";
     }
 
-    console.log('${i} ${output}');
+    console.log(`${i} ${output}`);
     i++;
 }
 
@@ -60,7 +60,7 @@ do {
         output += "BUZZ";
     }
 
-    console.log('${x} ${output}');
+    console.log(`${x} ${output}`);
     x++;
 
 } while (x <= 100);
@@ -100,7 +100,7 @@ for (let i = start; i <= end; i++){
         output += "BUZZ";
     }
 
-    console.log('${i} ${output}');
+    console.log(`${i} ${output}`);
 }
 
 console.log(fizzDivisor, buzzDivisor);
